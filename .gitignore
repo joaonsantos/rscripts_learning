@@ -1,3 +1,4 @@
 # Ignore downloaded files
 *.xlsx
 *.csv
+*.xml
