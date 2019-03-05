@@ -9,7 +9,7 @@ main <- function(){
   library(XML)
 
   fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
-  download.file(fileUrl, "restaurant_data.xlsx", "curl")
+  download.file(fileUrl, "restaurant_data.xml", "curl")
 
   doc <- xmlTreeParse("restaurant_data.xml", useInternal=TRUE)
   rootNode <- xmlRoot(doc)
